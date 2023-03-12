@@ -19,6 +19,9 @@
 /turf/open/openspace/airless/planetary
 	planetary_atmos = TRUE
 
+/turf/open/openspace/lowpressure
+	initial_gas_mix = OPENTURF_LOW_PRESSURE
+
 // Reminder, any behavior code written here needs to be duped to /turf/open/space/openspace
 // I am so sorry
 /turf/open/openspace/Initialize(mapload) // handle plane and layer here so that they don't cover other obs/turfs in Dream Maker
