@@ -62,6 +62,9 @@
 /turf/open/floor/glass/airless
 	initial_gas_mix = AIRLESS_ATMOS
 
+/turf/open/floor/glass/lowpressure
+	initial_gas_mix = OPENTURF_LOW_PRESSURE
+
 /turf/open/floor/glass/reinforced
 	name = "reinforced glass floor"
 	desc = "Do jump on it, it can take it."
@@ -76,6 +79,9 @@
 
 /turf/open/floor/glass/reinforced/airless
 	initial_gas_mix = AIRLESS_ATMOS
+
+/turf/open/floor/glass/reinforced/lowpressure
+	initial_gas_mix = OPENTURF_LOW_PRESSURE
 
 /turf/open/floor/glass/plasma
 	name = "plasma glass floor"
