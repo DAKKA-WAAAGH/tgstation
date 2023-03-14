@@ -624,14 +624,6 @@
 	desc = "This rock is filled with pockets of breathable air."
 	baseturfs = /turf/open/misc/asteroid
 
-/turf/closed/mineral/asteroid/ironsand/airless
-	name = "iron rock"
-	baseturfs = /turf/open/misc/ironsand/airless
-
-/turf/closed/mineral/asteroid/ironsand/lowpressure
-	name = "iron rock"
-	baseturfs = /turf/open/misc/ironsand/lowpressure
-
 /turf/closed/mineral/random/stationside/asteroid
 	name = "iron rock"
 	icon = 'icons/turf/mining.dmi'
@@ -642,6 +634,33 @@
 	name = "porous iron rock"
 	desc = "This rock is filled with pockets of breathable air."
 	baseturfs = /turf/open/misc/asteroid
+
+//YOOOO RED ROCK WIT DA IRONSAND
+
+/turf/closed/mineral/asteroid/ironsand/porous
+	name = "porous rock"
+	desc = "This rock is filled with pockets of breathable air."
+	baseturfs = /turf/open/misc/ironsand
+
+/turf/closed/mineral/asteroid/ironsand/airless
+	name = "iron rock"
+	baseturfs = /turf/open/misc/ironsand/airless
+
+/turf/closed/mineral/asteroid/ironsand/lowpressure
+	name = "iron rock"
+	baseturfs = /turf/open/misc/ironsand/lowpressure
+
+/turf/closed/mineral/random/stationside/asteroid/ironsand
+	name = "iron rock"
+	icon = 'icons/turf/mining.dmi'
+	icon = MAP_SWITCH('icons/turf/walls/red_wall.dmi', 'icons/turf/mining.dmi')
+	base_icon_state = "red_wall"
+	baseturfs = /turf/open/misc/ironsand/airless
+
+/turf/closed/mineral/random/stationside/asteroid/ironsand/porus
+	name = "porous iron rock"
+	desc = "This rock is filled with pockets of breathable air."
+	baseturfs = /turf/open/misc/ironsand
 
 //GIBTONITE
 
