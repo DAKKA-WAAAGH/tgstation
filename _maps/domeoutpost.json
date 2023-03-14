@@ -1,0 +1,19 @@
+{
+	"version": 1,
+	"map_name": "Dome Outpost",
+	"map_path": "map_files/DomeOutpost",
+	"map_file": "DomeOutpost.dmm",
+	"space_ruin_levels": 0,
+	"space_empty_levels": 0,
+	"planetary": 1,
+	"shuttles": {
+		"cargo": "cargo_box",
+		"ferry": "ferry_fancy",
+		"whiteship": "whiteship_box",
+		"emergency": "emergency_box"
+	},
+	"traits": [],
+	"minetype": "none",
+	"blacklist_file": "",
+	"job_changes": {}
+}
