@@ -630,7 +630,7 @@
 	icon = MAP_SWITCH('icons/turf/walls/red_wall.dmi', 'icons/turf/mining.dmi')
 	base_icon_state = "red_wall"
 
-/turf/closed/mineral/random/stationside/asteroid/porus
+/turf/closed/mineral/random/stationside/asteroid/porous
 	name = "porous iron rock"
 	desc = "This rock is filled with pockets of breathable air."
 	baseturfs = /turf/open/misc/asteroid
@@ -657,7 +657,7 @@
 	base_icon_state = "red_wall"
 	baseturfs = /turf/open/misc/ironsand/airless
 
-/turf/closed/mineral/random/stationside/asteroid/ironsand/porus
+/turf/closed/mineral/random/stationside/asteroid/ironsand/porous
 	name = "porous iron rock"
 	desc = "This rock is filled with pockets of breathable air."
 	baseturfs = /turf/open/misc/ironsand
