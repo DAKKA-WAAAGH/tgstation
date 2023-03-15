@@ -262,3 +262,70 @@
 /area/icemoon/underground/explored // ruins can't spawn here
 	name = "Icemoon Underground"
 	area_flags = UNIQUE_AREA
+
+/**********************Red Asteroid Areas**************************/
+// I tried to stop him, but Copypaste-the-Areas did this anyway I'm so sorry
+// Red Asteroid fauna might include some really nasty xenomorphs... make sure to wear protection and have fun!
+
+/area/redasteroid
+	icon = 'icons/area/areas_station.dmi'
+	icon_state = "mining"
+	has_gravity = STANDARD_GRAVITY
+	flags_1 = NONE
+	area_flags = UNIQUE_AREA | FLORA_ALLOWED
+	sound_environment = SOUND_AREA_ICEMOON
+	ambient_buzz = 'sound/ambience/magma.ogg'
+
+/area/redasteroid/surface
+	name = "Red Asteroid"
+	icon_state = "explored"
+	always_unpowered = TRUE
+	power_environ = FALSE
+	power_equip = FALSE
+	power_light = FALSE
+	requires_power = TRUE
+	ambience_index = AMBIENCE_MINING
+	area_flags = UNIQUE_AREA | FLORA_ALLOWED
+	min_ambience_cooldown = 70 SECONDS
+	max_ambience_cooldown = 220 SECONDS
+
+/area/redasteroid/surface/outdoors // parent that defines if something is on the exterior of the station.
+	name = "Red Asteroid Wasteland"
+	outdoors = TRUE
+
+/area/redasteroid/surface/outdoors/nospawn // this is the area you use for stuff to not spawn, but if you still want weather.
+
+/area/redasteroid/surface/outdoors/noteleport // for places like the cursed spring water
+	area_flags = UNIQUE_AREA | FLORA_ALLOWED | NOTELEPORT
+
+/area/redasteroid/surface/outdoors/noruins // when you want random generation without the chance of getting ruins
+	icon_state = "noruins"
+	area_flags = UNIQUE_AREA | FLORA_ALLOWED | MOB_SPAWN_ALLOWED | CAVES_ALLOWED
+	map_generator =  /datum/map_generator/cave_generator/icemoon/surface/noruins
+
+/area/redasteroid/surface/outdoors/labor_camp
+	name = "Red Asteroid Labor Camp"
+	area_flags = UNIQUE_AREA
+
+/area/redasteroid/surface/outdoors/unexplored //monsters and ruins spawn here
+	icon_state = "unexplored"
+	area_flags = UNIQUE_AREA | FLORA_ALLOWED | MOB_SPAWN_ALLOWED | CAVES_ALLOWED
+
+// FOR KARL!
+/area/redasteroid/underground
+	name = "Red Asteroid Caves"
+	outdoors = TRUE
+	always_unpowered = TRUE
+	requires_power = TRUE
+	power_environ = FALSE
+	power_equip = FALSE
+	power_light = FALSE
+	ambience_index = AMBIENCE_MINING
+	area_flags = UNIQUE_AREA | FLORA_ALLOWED
+	min_ambience_cooldown = 70 SECONDS
+	max_ambience_cooldown = 220 SECONDS
+
+/area/redasteroid/underground/unexplored // mobs and megafauna and ruins spawn here
+	name = "Red Asteroid Caves"
+	icon_state = "unexplored"
+	area_flags = CAVES_ALLOWED | FLORA_ALLOWED | MOB_SPAWN_ALLOWED | MEGAFAUNA_SPAWN_ALLOWED
