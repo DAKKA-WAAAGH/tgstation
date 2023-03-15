@@ -201,6 +201,12 @@
 	//Used to track which stage of deconstruction the plate is currently in, Intact > Bolts Loosened > Cut
 	var/deconstruction_state = PLATE_INTACT
 
+/turf/open/floor/plating/reinforced/airless
+	initial_gas_mix = AIRLESS_ATMOS
+
+/turf/open/floor/plating/reinforced/lowpressure
+	initial_gas_mix = OPENTURF_LOW_PRESSURE
+
 /turf/open/floor/plating/reinforced/examine(mob/user)
 	. += ..()
 	. += deconstruction_hints(user)
