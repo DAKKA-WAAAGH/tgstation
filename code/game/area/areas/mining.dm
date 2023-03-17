@@ -329,3 +329,7 @@
 	name = "Red Asteroid Caves"
 	icon_state = "unexplored"
 	area_flags = CAVES_ALLOWED | FLORA_ALLOWED | MOB_SPAWN_ALLOWED | MEGAFAUNA_SPAWN_ALLOWED
+
+/area/redasteroid/underground/explored // ruins can't spawn here
+	name = "Red Asteroid Underground"
+	area_flags = UNIQUE_AREA
