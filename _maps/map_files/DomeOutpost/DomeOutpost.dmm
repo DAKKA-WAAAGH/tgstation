@@ -212,6 +212,9 @@
 /obj/effect/turf_decal/trimline/brown/warning{
 	dir = 8
 	},
+/obj/effect/turf_decal/trimline/neutral/warning{
+	dir = 8
+	},
 /turf/open/floor/iron/dark/side{
 	dir = 8
 	},
@@ -388,6 +391,7 @@
 "dx" = (
 /obj/effect/turf_decal/tile/brown/opposingcorners,
 /obj/structure/table,
+/obj/effect/turf_decal/tile/neutral/opposingcorners,
 /turf/open/floor/iron/dark,
 /area/station)
 "dy" = (
@@ -1355,6 +1359,7 @@
 "mK" = (
 /obj/effect/turf_decal/tile/brown/opposingcorners,
 /obj/machinery/vending/wardrobe/cargo_wardrobe,
+/obj/effect/turf_decal/tile/neutral/opposingcorners,
 /turf/open/floor/iron/dark,
 /area/station)
 "mN" = (
@@ -2169,6 +2174,7 @@
 /area/station)
 "uK" = (
 /obj/effect/turf_decal/tile/brown/opposingcorners,
+/obj/effect/turf_decal/tile/neutral/opposingcorners,
 /turf/open/floor/iron/dark,
 /area/station)
 "uZ" = (
@@ -2309,6 +2315,7 @@
 "we" = (
 /obj/effect/turf_decal/tile/brown/opposingcorners,
 /obj/machinery/disposal/bin,
+/obj/effect/turf_decal/tile/neutral/opposingcorners,
 /turf/open/floor/iron/dark,
 /area/station)
 "wo" = (
@@ -2681,6 +2688,9 @@
 /area/station)
 "Ac" = (
 /obj/effect/turf_decal/trimline/brown/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral/warning{
 	dir = 4
 	},
 /turf/open/floor/iron/dark/side{
@@ -3665,6 +3675,7 @@
 /area/station)
 "Ju" = (
 /obj/effect/turf_decal/trimline/brown/warning,
+/obj/effect/turf_decal/trimline/neutral/warning,
 /turf/open/floor/iron/dark,
 /area/station)
 "JC" = (
@@ -3883,6 +3894,7 @@
 "LN" = (
 /obj/effect/turf_decal/tile/brown/opposingcorners,
 /obj/machinery/vending/cigarette,
+/obj/effect/turf_decal/tile/neutral/opposingcorners,
 /turf/open/floor/iron/dark,
 /area/station)
 "LQ" = (
@@ -4024,6 +4036,9 @@
 /area/station)
 "Nj" = (
 /obj/effect/turf_decal/trimline/brown/warning{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/neutral/warning{
 	dir = 1
 	},
 /turf/open/floor/iron/dark,
@@ -4551,6 +4566,7 @@
 "Sa" = (
 /obj/effect/turf_decal/tile/brown/opposingcorners,
 /mob/living/simple_animal/bot/mulebot,
+/obj/effect/turf_decal/tile/neutral/opposingcorners,
 /turf/open/floor/iron/dark,
 /area/station)
 "Sc" = (
